@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Background */
+body {
+    background-image: url(assets/img/hospital_image.jpeg);
+    background-color: rgba(188, 185, 185, 0.5);
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Signup Form Container */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+/* Heading */
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #3fbbc0;
+    outline: none;
+}
+
+/* Submit Button */
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #3fbbc0;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #36a6a0;
+}
+
+/* Login Link */
+.signup-form p {
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+    font-size: 14px;
+}
+
+.signup-form a {
+    color: #3fbbc0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-form a:hover {
+    text-decoration: underline;
+}

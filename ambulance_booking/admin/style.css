@@ -1,0 +1,260 @@
+body {
+
+}
+
+/* Sidebar container */
+#sidebar {
+    background-color: #2c3e50; /* Dark background */
+    color: #fff; /* Text color */
+    width: 250px; /* Sidebar width */
+    height: 100vh; /* Full height of the viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto; /* Scroll if content overflows */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Add subtle shadow */
+}
+
+/* Navigation menu items */
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    margin: 0;
+}
+
+.sidebar-menu li a {
+    color: #ecf0f1; /* Text color */
+    display: block;
+    padding: 15px 20px; /* Padding around the items */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+/* Active link styling */
+.sidebar-menu li a.active, .sidebar-menu li a:hover {
+    background-color: #3498db; /* Highlight active or hovered item */
+    color: #fff;
+}
+
+/* Sub-menu items */
+.sub-menu {
+    list-style-type: none;
+    padding-left: 20px; /* Indentation for submenu */
+    background-color: #34495e; /* Darker background for sub-menus */
+}
+
+.sub-menu li a {
+    font-size: 14px; /* Smaller font for sub-menu */
+    padding: 10px 20px; /* Reduced padding */
+}
+
+.sub-menu li a:hover {
+    background-color: #2980b9; /* Highlight submenu on hover */
+}
+
+/* Icon Styling */
+.sidebar-menu li a i {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 18px; /* Icon size */
+}
+
+/* Scrollbar styling */
+#sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+    background-color: #3498db; /* Scrollbar thumb */
+    border-radius: 4px;
+}
+
+/* Headings in the sidebar */
+.sidebar-menu li h4 {
+    color: #ecf0f1;
+    font-size: 18px;
+    margin: 20px 0 10px 20px;
+}
+
+/* Additional spacing for sections */
+.leftside-navigation {
+    padding-top: 20px;
+}
+
+.box {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Style for the panel */
+.panel {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* Style for the panel heading */
+.panel-heading {
+    background-color: #838383;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+}
+
+/* Table style */
+.table {
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+/* Table heading */
+.table th {
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Table rows */
+.table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Alternating row colors */
+.table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect for rows */
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button styles */
+.btn {
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Primary button for edit */
+.btn-primary {
+    background-color: #898989;
+    border: none;
+}
+
+/* Danger button for delete */
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+/* Change button color on hover */
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Form container styling */
+.form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+.control-label {
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input fields (readonly and regular) */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+/* Read-only fields background color */
+.form-control[readonly] {
+    background-color: #e9ecef;
+    color: #6c757d;
+}
+
+/* Input hover effect */
+.form-control:hover, .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Button styling */
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Center-aligning the button */
+.col-lg-offset-3 {
+    margin-left: 25%;
+}
+
+/* Optional: Align form elements better in smaller screens */
+@media (max-width: 768px) {
+    .col-lg-3, .col-lg-6 {
+        width: 100%;
+        margin: 0;
+    }
+    .col-lg-offset-3 {
+        margin-left: 0;
+    }
+}

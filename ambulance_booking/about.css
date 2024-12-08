@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-toggler-icon {
+    font-size: 24px;
+    color: #fff;
+}
+
+.navbar-nav {
+    margin-top: 10px;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+.about {
+    padding: 50px;
+    text-align: center;
+}
+
+.about img {
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.about h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about li {
+    margin-bottom: 10px;
+}
+
+.about li::before {
+    content: "\2022";
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}

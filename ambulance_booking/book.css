@@ -1,0 +1,64 @@
+/* General Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 600px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 80px;
+}
+
+/* Form Fields Styling */
+.form-group input, 
+.form-group select {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    margin-top: 5px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+/* Button Styling */
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+    }
+
+    .btn-primary {
+        font-size: 16px;
+    }
+}
